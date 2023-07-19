@@ -1,0 +1,114 @@
+body{
+   background-color: rgb(231, 219, 219);
+}
+.main{
+    width: 330px;
+    text-align:left;
+}
+input{
+    align-items: end ;
+}
+.navbar{
+    padding-right: 15px;
+    padding-left: 15px;
+    background: rgb(198, 16, 6);
+   
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.name a{
+      font-size: 35px;  
+      color:white;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+color: white;
+font-size: 18px;
+margin-right: 28px;
+}
+button {
+    background-color: brown;
+}
+button a{
+    color: white;
+font-size: 18px;
+}
+h1{
+    text-decoration:underline;
+    text-align: center;
+}
+h2{
+    color: rgb(18, 150, 150);
+    text-align: center;
+    text-decoration: underline;
+}
+.container{
+    height: 350px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items:center;
+    overflow: hidden;
+}
+.slide-container{
+    display: flex;
+    width: calc(250px*18);
+    animation: scroll 20s linear infinite;
+}
+@keyframes scroll {
+    0%{
+        transform: translatex(0);
+        
+    }
+    100%{
+     transform: translatex(calc(-250px * 9));       
+    }
+}
+.slide-image{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+}
+img{
+    height: 260px;
+    width: 260px;
+    transition: transform 1s;
+}
+img:hover{
+    transform:translateZ(20px)
+}
+.holder{
+    
+    margin: auto;
+    background: #f2f2f2;
+    display: flex;
+    overflow: auto;
+}
+.food{
+
+    margin: 2px;
+    float: left;
+    width: 400px;
+    height: 300px; 
+}
+.imp{
+padding: 1px;
+text-align:center;
+}
+h3{
+    color: rgb(15, 15, 15);
+    text-indent: 30px;
+    text-transform: initial;
+    text-size-adjust: 100%;
+    padding-left: 0%;
+}
