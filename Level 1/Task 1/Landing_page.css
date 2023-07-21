@@ -1,5 +1,5 @@
 body{
-   background-color: rgb(231, 219, 219);
+   background-color: rgb(235, 235, 224);
 }
 .main{
     width: 330px;
@@ -90,7 +90,7 @@ img:hover{
 .holder{
     
     margin: auto;
-    background: #f2f2f2;
+    background:  rgb(198, 16, 6);
     display: flex;
     overflow: auto;
 }
@@ -104,11 +104,22 @@ img:hover{
 .imp{
 padding: 1px;
 text-align:center;
+color: white;
 }
-h3{
+p{
     color: rgb(15, 15, 15);
     text-indent: 30px;
     text-transform: initial;
     text-size-adjust: 100%;
     padding-left: 0%;
+    font-size: larger;
 }
+section{
+    text-align: center;
+    font-size: larger;
+    color: rgb(198, 16, 6);
+}
+.ftr{
+    text-align: center;
+}
+
