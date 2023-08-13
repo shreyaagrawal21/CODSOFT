@@ -1,1 +1,110 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    box-shadow: #330867 100%;
+    background-image: linear-gradient(#fff 100%);
+
+    font-size: 50px;
+}
+
+.cal {
+    min-height: 100vh;
+    background-image: linear-gradient(to top, #016170, #fff 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 5px 5px rgb(222, 197, 197);
+
+}
+
+.Calculator {
+    width: 400px;
+    height: 550px;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 8px;
+    background-image: linear-gradient(black, white);
+    background-color: rgb(42, 102, 199);
+    overflow: hidden;
+box-shadow: 0 14px 28px rgb(227, 8, 8), 0 10px 10px rgb(157, 114, 114);
+
+}
+
+form .display {
+    background-color: rgb(18, 17, 17);
+    color: white;
+    width: 100%;
+    height: 160px;
+    font-size: 50px;
+    display: inline;
+    align-items: end;
+}
+
+button {
+    width: 95px;
+    height: 70px;
+    font-size: 25px;
+    font-weight: 600;
+    background-image: linear-gradient(to top, white, black 100%);
+}
+
+.btns {
+    margin: 2px;
+    padding: 1px;
+}
+
+.clr-btn {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    justify-content: center;
+    color: rgb(239, 121, 10);
+    background: rgb(12, 12, 12);
+    font-size: 35px;
+
+}
+
+.btn-black {
+    color: rgb(248, 247, 245);
+    background-image: linear-gradient(rgb(14, 14, 14), rgb(194, 20, 20));
+
+}
+
+.equal-btn-orange {
+    background: rgb(239, 121, 10);
+    color: white;
+
+}
+
+.btn-blck {
+    color: rgb(239, 121, 10);
+    background: rgb(10, 10, 10);
+}
+
+.clr-btn:hover {
+    color:#fff;
+    background-image: linear-gradient(rgb(14, 14, 14), rgb(194, 20, 20));
+box-shadow: 0 14px 28px rgb(227, 8, 8), 0 10px 10px rgb(157, 114, 114);
+
+}
+.equal-btn-orange:hover {
+    background: rgb(20, 148, 3);
+    color: white;
+box-shadow: 0 14px 28px rgb(41, 184, 1), 0 10px 10px rgb(141, 240, 108);
+}
+.btn-black:hover {
+    color: rgb(248, 247, 245);
+    box-shadow: 0 11px 30px rgb(246, 244, 244), 0 10px 10px rgb(190, 178, 173);
+
+}
+.btn-blck:hover {
+    color: rgb(239, 121, 10);
+    background: rgb(10, 10, 10);
+    box-shadow: 0 11px 30px rgb(246, 244, 244), 0 10px 10px rgb(190, 178, 173);
+}
 
